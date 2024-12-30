@@ -33,6 +33,11 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+header_pages:
+  - about.markdown
+  - projects.markdown
+  - math-contests.markdown
+  - more.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
