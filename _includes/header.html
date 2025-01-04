@@ -1,14 +1,18 @@
 <header class="header">
-    <span class="title">{{ site.title }}</a>
-    <nav class="navbar">
-        <a href='{{ site.url }}'>Home</a>
-        {% for page in site.pages %} 
-        {% if page.title %}
-        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %} 
-        {% endfor %}
-        <a href='{{ "/more" | prepend: site.baseurl}}'>More</a>
-    </nav>
-
-    <hr />
+    <div class="navbar-title">
+        <span class="title">{{ site.title }}</span>
+    </div>
+    <div class="navbar-container">
+        <nav class="navbar">
+            <ul class="links">
+                <li><a href='{{ site.url }}'>Home</a></li>
+                {% for page in site.pages %} 
+                {% if page.title %}
+                <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% endif %} 
+                {% endfor %}
+                <li><a href='{{ "/more" | prepend: site.baseurl}}'>More</a></li>
+            </ul>
+        </nav>
+    </div>   
 </header>

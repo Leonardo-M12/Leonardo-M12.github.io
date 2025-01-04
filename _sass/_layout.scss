@@ -1,4 +1,5 @@
 body {
+    background-color: $background;
     margin: 0;
     color: $font-color;
     font-family: $font-style;
@@ -15,12 +16,12 @@ body {
     line-height: 1.5;
   }
   h1 {
-    color: $main;
+    color: $main-color;
     font-size: 2.5em;
     a,
     a:visited {
       text-decoration: none;
-      color: $main;
+      color: $main-color;
     }
   }
   h2 {
@@ -37,20 +38,77 @@ body {
     text-decoration: underline;
   }
   header {
-    background: $header;
-    padding: 0px 15px;
+    background: $background;
+    padding: 0px 30px;
     text-align: center;
-    margin: 50px 0 0;
-    height: 50vh;
+    border-bottom: solid black;
+    margin: 0;
+    height: $header-height;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .title {
+      font-size: xx-large;
+      font-variant: small-caps;
+    }
+
+    .navbar-container {
+      display: flex;
+      @media screen and (min-width: 800px) {
+        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      /*Add support for mobile devices*/
+    }
+
+    nav {
+      display: block;
+      ul {
+        display: flex;
+        list-style: none;
+        align-items: stretch;
+        justify-content: end;
+        margin: 0px;
+      }
+      li {
+        padding: 0 7px;
+        line-height: $header-height;
+      }
+
+      a {
+        display: inline-block;
+        padding: 0 4px;
+        transition: background-color 0.5s 0s;
+      }
+  
+      a:hover {
+        background-color: $secondary-color;
+        color: $main-color;
+        text-decoration: none;
+      }
+    }
+
   }
   main {
     padding: 0 15px;
     max-width: $content-width;
     margin: 0 auto;
   }
+
+  pre, code {
+    width: 100%;
+    font-family: $code-font-family;
+    font-size: $code-font-size;
+    font-weight: $code-font-weight;
+    line-height: $code-line-height;
+  }
+  pre {
+    padding: 10px;
+  }
+
   time {
     color: #898989;
   }
@@ -59,53 +117,9 @@ body {
     margin: 0 auto;
   }
   
-  /* Aside */
-  
-  aside {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #fff;
-    width: 100%;
-    z-index: 2;
-    border-bottom: 1px solid lighten($light, 30%);
-    box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1);
-    nav {
-      float: left;
-      max-width: 800px;
-      margin: 0 auto;
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        li {
-          float: left;
-          position: relative;
-          a {
-            text-decoration: none;
-            display: block;
-            padding: 15px;
-            font-family: 'Muli', sans-serif;
-            line-height: 20px;
-            margin-bottom: -1px;
-            box-shadow: 0;
-            &:hover,
-            &:active {
-              background: $header;
-              text-decoration: none;
-              color: $main;
-            }
-          }
-        }
-      }
-      &:after {
-        content: '';
-        display: table;
-        clear: both;
-      }
-    }
-  }
   footer {
     text-align: center;
+    height: $header-height;
+    border-top: solid black;
     padding: 40px;
   }

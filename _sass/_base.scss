@@ -1,13 +1,20 @@
+$background: #F8EEE5;
+$main-color: #9F3732;
+$secondary-color: #9A4239;
+$accent-color: #F27F3E;
 $content-width: 800px;
-$main: #19ccaa;
-$font-style: 'Open Sans', sans-serif;
-$font-color: #262626;
-$link-color: #425469;
-$link-hover-color: $main;
-$heading-font: 'Muli', sans-serif;
-$heading-font-color: #425469;
-$light: #e7edf4;
-$header: #1d1425;
+$font-style: 'Garamond', serif;
+$font-color: #000000;
+$link-color: $main-color;
+$link-hover-color: $main-color;
+$heading-font: 'Garamond', serif;
+$heading-font-color: $font-color;
+$header-height: 75px;
+$code-font-family: "Inconsolata", monospace !default;
+$code-font-weight: 300;
+$code-font-size:   90%;
+$code-line-height: 1.4;
+
 
 *,
 *::before,
