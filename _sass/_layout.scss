@@ -18,10 +18,12 @@ body {
   h1 {
     color: $main-color;
     font-size: 2.5em;
+    margin: 0;
     a,
-    a:visited {
+    a:visited,
+    a:hover {
       text-decoration: none;
-      color: $main-color;
+      color: $font-color;
     }
   }
   h2 {
@@ -31,7 +33,6 @@ body {
   a:visited {
     color: $link-color;
     text-decoration: underline;
-    font-weight: bold;
   }
   a:hover {
     color: $link-hover-color;
@@ -39,63 +40,76 @@ body {
   }
   header {
     background: $background;
-    padding: 0px 30px;
+    padding: 0px;
     text-align: center;
-    border-bottom: solid black;
-    margin: 0;
-    height: $header-height;
+    margin: 30px 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+
+    @media screen and (min-width: 800px) {
+      flex-direction: row;
+      border-bottom: 1px solid gray;
+    }
+    @media screen and (max-width: 799px) {
+      flex-direction: column;
+    }
+
 
     .title {
       font-size: xx-large;
-      font-variant: small-caps;
     }
 
     .navbar-container {
       display: flex;
-      @media screen and (min-width: 800px) {
-        margin-left: auto;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 0px;
+      justify-content: center;
 
-      /*Add support for mobile devices*/
+      @media screen and (max-width: 799px) {
+        padding: 10px 0px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+      }
     }
 
     nav {
-      display: block;
+      width: 100%;
       ul {
         display: flex;
         list-style: none;
-        align-items: stretch;
-        justify-content: end;
+        align-items: center;
+        justify-content: space-evenly;
         margin: 0px;
+        padding: 0px;
       }
       li {
         padding: 0 7px;
-        line-height: $header-height;
       }
 
       a {
+        font-family: $navbar-font;
         display: inline-block;
         padding: 0 4px;
-        transition: background-color 0.5s 0s;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        @media screen and (min-width: 800px) {
+          font-size: large;
+        }
       }
   
       a:hover {
-        background-color: $secondary-color;
-        color: $main-color;
         text-decoration: none;
       }
     }
 
   }
   main {
-    padding: 0 15px;
+    padding: 0px 15px;
     max-width: $content-width;
-    margin: 0 auto;
+    margin: 0;
   }
 
   pre, code {
@@ -113,13 +127,16 @@ body {
     color: #898989;
   }
   .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     max-width: $content-width;
     margin: 0 auto;
   }
   
   footer {
     text-align: center;
-    height: $header-height;
-    border-top: solid black;
     padding: 40px;
+    margin-top: auto;
+    border-top: 1px solid gray;
   }
