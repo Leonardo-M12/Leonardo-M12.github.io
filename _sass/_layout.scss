@@ -28,6 +28,9 @@ body {
   h2 {
     font-size: 1.5em;
   }
+  h3 {
+    font-size: 1em;
+  }
   header {
     background: $background;
     padding: 0px;
@@ -127,6 +130,34 @@ body {
     }
   }
 
+  .photo-container {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center; 
+
+    @media screen and (max-width: 799px) {
+      margin-top: 30px;
+    }
+    @media screen and (min-width: 800px) {
+      float: right;
+      margin-left: 15px;
+    }
+  }
+
+  #profile {
+    display: inline;
+    object-fit: cover;
+    border-radius: 50%;
+    width: $profile-size;
+    height: $profile-size;
+  }
+
+  .about p {
+    text-align: justify;
+  }
+
   pre, code {
     width: 100%;
     font-family: $code-font-family;
@@ -150,7 +181,7 @@ body {
   }
   
   footer {
-    font-style: italic;
+    font-family: $heading-font;
     text-align: baseline;
     margin: 0 15px;
     padding: 10px 0;
