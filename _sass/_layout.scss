@@ -188,6 +188,16 @@ body {
     margin-top: auto;
     border-top: medium solid black;
 
+    a,
+    a:visited {
+      color: $link-color;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: $link-hover-color;
+      text-decoration: underline;
+    }
+
     @media screen and (max-width: 800px) {
       text-align: center;
     }
