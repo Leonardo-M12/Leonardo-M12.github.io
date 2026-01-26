@@ -5,7 +5,6 @@
     <div class="navbar-container">
         <nav class="navbar">
             <ul class="links">
-                <li><a href="{{ site.url }}">About</a></li>
                 {% for page in site.pages %} 
                 {% if page.title %}
                 <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>

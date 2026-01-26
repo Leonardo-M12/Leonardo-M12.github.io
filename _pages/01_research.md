@@ -12,12 +12,7 @@ located near the Illinois Tech campus in Chicago, as part of Illinois Tech's [So
 Food pantries need to balance uncertainty in both client demand and volunteer staff supply,
 which in particular impacts client waiting times. On the other hand, the St. James Food Pantry follows a [client-choice model](https://www.endhungerinamerica.org/getting-started/client-choice-food-pantries/), allowing each client to choose food items suited to their needs. Therefore, both system throughput and service autonomy are crucial to guarantee an effective and dignified service to clients.
 
-I'm developing a tool using discrete-event simulation to understand the process workflow of the food pantry under uncertain conditions to help pantry managers identify potential improvements and study the performance of alternative process workflows. Below is the initial presentation I gave at the Spring 2026 kickoff event of the SoReMo initiative.
-
-<p align="center" width="100%">
-    <embed src="/assets/docs/Optimizing client flow in food pantries.pdf" width="640" height="387" 
-    type="application/pdf">
-</p>
+I'm developing a tool using discrete-event simulation to understand the process workflow of the food pantry under uncertain conditions to help pantry managers identify potential improvements and study the performance of alternative process workflows. <a href="/assets/docs/Optimizing client flow in food pantries.pdf">Here is the initial presentation</a> I gave at the Spring 2026 kickoff event of the SoReMo initiative.
 
 
 ### Augmenting longitudinal behavioral survey data
@@ -43,7 +38,7 @@ Thus, we can define an analogue of the classical _chromatic number_. A list assi
 
 We explore how the list chromatic number behaves under the _Cartesian product_ of certain families of graphs, especially _strongly chromatic-choosable_ graphs.
 
-<p align="center" width="100%">
+<p align="center" class="photo" width="100%">
     <img src="/assets/images/K24_not_2_colorable.png" alt="K_2,4 is not 2-colorable" width="75%"/>
     <br>
     A classical example in list coloring: the bipartite graph $K_{2, 4}$ is not 2-colorable.

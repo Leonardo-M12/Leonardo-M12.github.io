@@ -154,7 +154,7 @@ body {
     height: $profile-size;
   }
 
-  .about p {
+  p:not(.photo) {
     text-align: justify;
   }
 
