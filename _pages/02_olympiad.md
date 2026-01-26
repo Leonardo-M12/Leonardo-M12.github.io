@@ -7,7 +7,7 @@ permalink: /olympiad/
 I often like to think about math problems and, even more than that, help
 others do the same. 
 
-Here is a sample of some materials I created for a little Putnam training
+Here is a sample of some materials I created for a Putnam training
 session I conducted at Illinois Tech:
 - Putnam Session #1. We discussed ideas relating to Latin squares as motivation for
 Problem B1 of Putnam 2024. Here is a link to the [handout](/assets/docs/putnam_handout_1.pdf)
