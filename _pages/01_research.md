@@ -12,12 +12,7 @@ located near the Illinois Tech campus in Chicago, as part of Illinois Tech's [So
 Food pantries need to balance uncertainty in both client demand and volunteer staff supply,
 which in particular impacts client waiting times. On the other hand, the St. James Food Pantry follows a [client-choice model](https://www.endhungerinamerica.org/getting-started/client-choice-food-pantries/), allowing each client to choose food items suited to their needs. Therefore, both system throughput and service autonomy are crucial to guarantee an effective and dignified service to clients.
 
-I'm developing a tool using discrete-event simulation to understand the process workflow of the food pantry under uncertain conditions to help pantry managers identify potential improvements and study the performance of alternative process workflows. Below is the initial presentation I gave at the Spring 2026 kickoff event of the SoReMo initiative.
-
-<p align="center" width="100%">
-    <embed src="/assets/docs/Optimizing client flow in food pantries.pdf" width="640" height="387" 
-    type="application/pdf">
-</p>
+I'm developing a tool using discrete-event simulation to understand the process workflow of the food pantry under uncertain conditions to help pantry managers identify potential improvements and study the performance of alternative process workflows. <a href="/assets/docs/Optimizing client flow in food pantries.pdf">Here is the initial presentation</a> I gave at the Spring 2026 kickoff event of the SoReMo initiative.
 
 
 ### Augmenting longitudinal behavioral survey data
