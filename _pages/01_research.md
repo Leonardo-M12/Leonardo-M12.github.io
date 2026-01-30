@@ -7,12 +7,13 @@ katex: true
 
 ### Optimizing client flow in food pantries
 
-I'm doing this project in collaboration with the [St. James Food Pantry](https://www.stjameswabash.org/pantry-history/), 
-located near the Illinois Tech campus in Chicago, as part of Illinois Tech's [SoReMo initiative](https://www.soremo.org/) for the Spring 2026 semester.
+I'm doing this project in collaboration with a local food pantry in Chicago, as part of Illinois Tech's [SoReMo initiative](https://www.soremo.org/) for the Spring 2026 semester.
 Food pantries need to balance uncertainty in both client demand and volunteer staff supply,
-which in particular impacts client waiting times. On the other hand, the St. James Food Pantry follows a [client-choice model](https://www.endhungerinamerica.org/getting-started/client-choice-food-pantries/), allowing each client to choose food items suited to their needs. Therefore, both system throughput and service autonomy are crucial to guarantee an effective and dignified service to clients.
+which in particular impacts client waiting times. We consider a [client-choice model](https://www.endhungerinamerica.org/getting-started/client-choice-food-pantries/), in which each client is allowed to choose food items suited to their needs, akin to a grocery store experience. Both efficiency and client autonomy are crucial to guarantee an effective and dignified service to clients.
 
-I'm developing a tool using discrete-event simulation to understand the process workflow of the food pantry under uncertain conditions to help pantry managers identify potential improvements and study the performance of alternative process workflows. <a href="/assets/docs/Optimizing client flow in food pantries.pdf">Here is the initial presentation</a> I gave at the Spring 2026 kickoff event of the SoReMo initiative.
+I'm developing a tool using discrete-event simulation to understand the process workflow of the food pantry under uncertain conditions, in order to help pantry managers identify potential improvements and study the performance of alternative process workflows. Here is a list of presentations I've given at the SoReMo program thus far:
+- <a href="/assets/docs/SoReMo/Optimizing client flow in food pantries.pdf">Initial presentation at the kickoff event.</a>
+- <a href="/assets/docs/SoReMo/Check-in presentation 1.pdf">Progress report presentation #1.</a>
 
 
 ### Augmenting longitudinal behavioral survey data

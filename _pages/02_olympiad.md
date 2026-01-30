@@ -10,8 +10,8 @@ others do the same.
 Here is a sample of some materials I created for a Putnam training
 session I conducted at Illinois Tech:
 - Putnam Session #1. We discussed ideas relating to Latin squares as motivation for
-Problem B1 of Putnam 2024. Here is a link to the [handout](/assets/docs/putnam_handout_1.pdf)
-and the [presentation.](/assets/docs/putnam_seminar_1.pdf)
+Problem B1 of Putnam 2024. Here is a link to the [handout](/assets/docs/Olympiads/putnam_handout_1.pdf)
+and the [presentation.](/assets/docs/Olympiads/putnam_seminar_1.pdf)
 
 Further resources:
 
