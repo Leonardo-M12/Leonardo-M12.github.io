@@ -5,31 +5,30 @@ permalink: /research/
 katex: true
 ---
 
-### Optimizing client flow in food pantries
+This is an overview of the research projects I've had the opportunity to be a part of so far.
 
-I'm doing this project in collaboration with a local food pantry in Chicago, as part of Illinois Tech's [SoReMo initiative](https://www.soremo.org/) for the Spring 2026 semester.
-Food pantries need to balance uncertainty in both client demand and volunteer staff supply,
-which in particular impacts client waiting times. We consider a [client-choice model](https://www.endhungerinamerica.org/getting-started/client-choice-food-pantries/), in which each client is allowed to choose food items suited to their needs, akin to a grocery store experience. Both efficiency and client autonomy are crucial to guarantee an effective and dignified service to clients.
+## Stability of group formation
 
-I'm developing a tool using discrete-event simulation to understand the process workflow of the food pantry under uncertain conditions, in order to help pantry managers identify potential improvements and study the performance of alternative process workflows. Here is a list of presentations I've given at the SoReMo program thus far:
-- <a href="/assets/docs/SoReMo/Optimizing client flow in food pantries.pdf">Initial presentation at the kickoff event.</a>
-- <a href="/assets/docs/SoReMo/Check-in presentation 1.pdf">Progress report presentation #1.</a>
+This project arose from my work at the [2026 Santa Fe Institute Undergraduate Complexity Research (UCR) program](https://santafe.edu/engage/learn/projects/undergraduate-complexity-research-projects). We are studying the mechanisms of group formation in a set of diverse individuals, both at an individual decision-maker's level perspective and a population level. We are addressing questions such as which environmental factors may drive fast/slow commitment to a group, and how important is collective buy-in of cooperation to determine its dynamics. My experience at SFI helped me explore questions and concepts mixing different methods that I wouldn't have tried otherwise.
 
 
-### Augmenting longitudinal behavioral survey data
+## Volunteer training at the St. James Food Pantry
 
-I participated in this project as part of the 2025 [Research in Industrial Projects for Students](https://www.ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2026-los-angeles/) program at UCLA's Institute for Pure and Applied Mathematics (IPAM).
+I did this project in collaboration with the [St. James Food Pantry](https://www.stjameswabash.org/pantry-services/) in Chicago, as part of Illinois Tech's [SoReMo initiative](https://www.soremo.org/) for the Spring 2026 semester. I studied the problem of coordinating the training process for large groups (relative to the pantry size and staff) of new volunteers. This project was especially impactful for me since I got to experience two sides of the same coin: theory, drawn from models in the volunteer management literature; and practice, comprising the day-to-day operations at the pantry floor. I'm really grateful to the staff at the St. James Food Pantry for their support with this project.
 
-Epidemic simulation models require accurate and up-to-date survey data to reflect population behaviors, but collecting such data is often costly and time-consuming. This creates a need for methods to augment existing data to integrate into such models, although there exist several challenges for such methods to overcome. In particular, longitudinal survey data often presents challenges for traditional time series modeling methods, such as data sparsity due to attrition, or changing survey question texts over time.
+<a href="/assets/docs/SoReMo/SoReMo-report.pdf">See the working paper here.</a>
 
-We address these issues through a framework involving Deep & Cross Networks, LLM‐derived semantic question embeddings, wave‐local cluster analysis, and an LLM-based synthetic data generation pipeline. We used the RAND Corporation's FluPaths and COVIDPaths longitudinal studies, which capture respondents' attitudes surrounding healthcare, influenza, and COVID-19.
+
+## Augmenting longitudinal behavioral survey data
+
+I participated in this project as part of the 2025 [Research in Industrial Projects for Students](https://www.ipam.ucla.edu/programs/student-research-programs/research-in-industrial-projects-for-students-rips-2026-los-angeles/) program at UCLA's Institute for Pure and Applied Mathematics (IPAM). We built a framework based on LLMs and Deep & Cross networks to create synthetic samples of longitudinal behavioral survey data preserving broad statistical patterns. We used the RAND Corporation’s FluPaths and COVIDPaths longitudinal studies, which capture respondents’ attitudes surrounding healthcare, influenza, and COVID-19.
+
 
 **Associated publication:**
-Rezvani, J., Hyk, A., Pham, T., Marciaga, L., Liao, C., Vardavas, R., Mitsopoulos, K. _Semantic Embedding and Synthetic Augmentation for Longitudinal Survey Prediction (Student Abstract)._ In _Proceedings of the 40th AAAI Conference on Artificial Intelligence (AAAI-26)._ Singapore. (in press).
+Rezvani, J., Hyk, A., Pham, T., Marciaga, L., Liao, C., Vardavas, R., & Mitsopoulos, K. (2026). Semantic Embedding and Synthetic Augmentation for Longitudinal Survey Prediction (Student Abstract). Proceedings of the AAAI Conference on Artificial Intelligence, 40(48), 41365-41367. [https://doi.org/10.1609/aaai.v40i48.42271](https://doi.org/10.1609/aaai.v40i48.42271)
 
 
-
-### List coloring, strong chromatic-choosability, and Cartesian products of graphs
+## List coloring, strong chromatic-choosability, and Cartesian products of graphs
 
 I'm working with Professors [Hemanshu Kaul](https://www.math.iit.edu/~kaul/index.html) and [Jeffrey Mudrock](https://jmudrock.weebly.com/) in this project. 
 
